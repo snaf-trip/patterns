@@ -29,4 +29,3 @@ Main2.increaseMain();
 
 console.log(Main2.getMain());
 console.log(Main1.getMain());
-console.log(Main1.name);
