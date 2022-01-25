@@ -25,16 +25,16 @@ class exercisePressKachat {
 }
 
 class exerciseFactory {
+  constructor() {
+    this.list = {
+      'Анжумания': exerciseAnjumaniya,
+      'Бегит': exerciseBegit,
+      'Прес качат': exercisePressKachat,
+    }
+  }
+
   create(type, whoYou) {
-    if (type === 'Анжумания') {
-      return new exerciseAnjumaniya(whoYou);
-    }
-    if (type === 'Бегит') {
-      return new exerciseBegit(whoYou);
-    }
-    if (type === 'Прес качат') {
-      return new exercisePressKachat(whoYou);
-    }
+    return new this.list[type](whoYou);
   }
 }
 
