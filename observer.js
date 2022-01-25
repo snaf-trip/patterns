@@ -38,7 +38,7 @@ class Subscriber {
 }
 
 
-const user1 = new Subscriber('BigBoy');
+const user1 = new Subscriber('дудли паркур киллер дарк бравлстарс ассасин сталкер снайпер 2003 бизе');
 const user2 = new Subscriber('DemonNaMasse')
 
 //ну а тут уже работа этой жимолости
